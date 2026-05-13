@@ -4,7 +4,7 @@ const app = express();
 // TODO: implemente a rota GET /
 // A resposta deve conter a palavra "Hello"
 app.get('/', (req, res) => {
-  res.send('Hello-errado');
+  res.send('errado');
 });
 
 app.listen(3000, () => {
